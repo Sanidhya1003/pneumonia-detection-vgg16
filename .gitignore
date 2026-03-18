@@ -13,7 +13,11 @@ env/
 
 # output files
 outputs/*.png
+!outputs/training_accuracy.png
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# dataset
+chest_xray/
