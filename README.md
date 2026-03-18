@@ -84,7 +84,7 @@ This project aims to:
 
 pneumonia-detection-vgg16/
 
-│── chest\\\_xray/        # (not included - see dataset section)
+│── chest_xray/        # (not included - see dataset section)
 
 │── models/            # trained model saved here
 
@@ -210,7 +210,7 @@ python train.py
 
 ```bash
 
-python predict.py chest\\\_xray/test/NORMAL/NORMAL2-IM-0381-0001.jpeg
+python predict.py chest_xray/test/NORMAL/NORMAL2-IM-0381-0001.jpeg
 
 ```
 
