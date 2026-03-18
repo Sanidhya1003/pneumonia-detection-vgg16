@@ -1,12 +1,12 @@
-\# Pneumonia Detection using VGG16
+# Pneumonia Detection using VGG16
 
 
 
-\## Overview
+## Overview
 
 
 
-This project implements a deep learning model to detect \*\*pneumonia from chest X-ray images\*\* using transfer learning with the VGG16 architecture.
+This project implements a deep learning model to detect **pneumonia from chest X-ray images** using transfer learning with the VGG16 architecture.
 
 
 
@@ -14,21 +14,21 @@ The model is trained to classify X-ray images into two categories:
 
 
 
-\* \*\*Normal\*\*
+* **Normal**
 
-\* \*\*Pneumonia\*\*
-
-
-
-This project demonstrates the application of \*\*computer vision in medical diagnosis\*\* using pre-trained convolutional neural networks.
+* **Pneumonia**
 
 
 
-\---
+This project demonstrates the application of **computer vision in medical diagnosis** using pre-trained convolutional neural networks.
 
 
 
-\## Problem Statement
+---
+
+
+
+## Problem Statement
 
 
 
@@ -42,41 +42,41 @@ This project aims to:
 
 
 
-\* Automate pneumonia detection
+* Automate pneumonia detection
 
-\* Assist in faster diagnosis
+* Assist in faster diagnosis
 
-\* Reduce dependency on manual screening
-
-
-
-\---
+* Reduce dependency on manual screening
 
 
 
-\## Tech Stack
+---
 
 
 
-\* Python
-
-\* TensorFlow / Keras
-
-\* VGG16 (Transfer Learning)
-
-\* NumPy
-
-\* Matplotlib
-
-\* Pillow
+## Tech Stack
 
 
 
-\---
+* Python
+
+* TensorFlow / Keras
+
+* VGG16 (Transfer Learning)
+
+* NumPy
+
+* Matplotlib
+
+* Pillow
 
 
 
-\## Project Structure
+---
+
+
+
+## Project Structure
 
 
 
@@ -104,15 +104,15 @@ pneumonia-detection-vgg16/
 
 
 
-\---
+---
 
 
 
-\## Dataset
+## Dataset
 
 
 
-This project uses the \*\*Chest X-Ray Pneumonia dataset\*\* from Kaggle:
+This project uses the **Chest X-Ray Pneumonia dataset** from Kaggle:
 
 
 
@@ -120,11 +120,11 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 
 
-Due to size limitations, the dataset is \*\*not included\*\* in this repository.
+Due to size limitations, the dataset is not included in this repository.
 
 
 
-\### Expected Dataset Structure
+### Expected Dataset Structure
 
 
 
@@ -134,7 +134,7 @@ After downloading, place it like this:
 
 ```text
 
-chest\\\_xray/
+chest_xray/
 
 │── train/
 
@@ -158,15 +158,15 @@ chest\\\_xray/
 
 
 
-\---
+---
 
 
 
-\## How to Run
+## How to Run
 
 
 
-\### Clone the repository
+### Clone the repository
 
 
 
@@ -180,7 +180,7 @@ cd pneumonia-detection-vgg16
 
 
 
-\### Install dependencies
+### Install dependencies
 
 
 
@@ -192,7 +192,7 @@ pip install -r requirements.txt
 
 
 
-\### Train the model
+### Train the model
 
 
 
@@ -204,7 +204,7 @@ python train.py
 
 
 
-\### Predict on a new image
+### Predict on a new image
 
 
 
@@ -216,11 +216,11 @@ python predict.py chest_xray/test/NORMAL/NORMAL2-IM-0381-0001.jpeg
 
 
 
-\---
+---
 
 
 
-\## Results
+## Results
 
 
 
@@ -228,75 +228,75 @@ The model is able to classify chest X-ray images into:
 
 
 
-\* \*\*Normal\*\*
+* Normal
 
-\* \*\*Pneumonia\*\*
-
-
-
-!\[Training Accuracy](outputs/training\_accuracy.png)
-
-\---
+* Pneumonia
 
 
 
-\## Key Learnings
+![Training Accuracy](outputs/training_accuracy.png)
+
+---
 
 
 
-\* Applied \*\*transfer learning\*\* using VGG16
-
-\* Worked with \*\*medical imaging datasets\*\*
-
-\* Implemented \*\*image preprocessing \& augmentation\*\*
-
-\* Built an \*\*end-to-end ML pipeline (training + inference)\*\*
-
-\* Understood limitations of small datasets in deep learning
+## Key Learnings
 
 
 
-\---
+* Applied transfer learning using VGG16
+
+* Worked with medical imaging datasets
+
+* Implemented image preprocessing & augmentation
+
+* Built an end-to-end ML pipeline (training + inference)
+
+* Understood limitations of small datasets in deep learning
 
 
 
-\## Future Improvements
+---
 
 
 
-\* Add confusion matrix \& classification report
-
-\* Improve model performance using ResNet / EfficientNet
-
-\* Hyperparameter tuning
-
-\* Deploy as a web app (Streamlit / Flask)
-
-\* Add real-time prediction interface
+## Future Improvements
 
 
 
-\---
+* Add confusion matrix & classification report
+
+* Improve model performance using ResNet / EfficientNet
+
+* Hyperparameter tuning
+
+* Deploy as a web app (Streamlit / Flask)
+
+* Add real-time prediction interface
 
 
 
-\## Author
+---
 
 
 
-\*\*Sanidhya Shrivastava\*\*
+## Author
 
 
 
-\---
+**Sanidhya Shrivastava**
 
 
 
-\## Acknowledgements
+---
 
 
 
-\* Kaggle dataset contributors
+## Acknowledgements
 
-\* TensorFlow \& Keras documentation
+
+
+* Kaggle dataset contributors
+
+* TensorFlow & Keras documentation
 
